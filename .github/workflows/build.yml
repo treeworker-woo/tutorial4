@@ -1,10 +1,10 @@
-name: Run Maven build
+name: Java CI with Maven
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, master ]
 
 jobs:
   build:
